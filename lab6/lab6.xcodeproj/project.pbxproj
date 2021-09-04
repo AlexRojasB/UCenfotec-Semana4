@@ -7,27 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A51FAF4E26E40AD200B0171E /* lab5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAF4D26E40AD200B0171E /* lab5App.swift */; };
-		A51FAF5026E40AD200B0171E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAF4F26E40AD200B0171E /* ContentView.swift */; };
-		A51FAF5226E40ADB00B0171E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51FAF5126E40ADB00B0171E /* Assets.xcassets */; };
-		A51FAF5526E40ADB00B0171E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51FAF5426E40ADB00B0171E /* Preview Assets.xcassets */; };
-		A51FAF5D26E4263300B0171E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAF5C26E4263300B0171E /* CircleImage.swift */; };
-		A51FAF5F26E426DA00B0171E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAF5E26E426DA00B0171E /* MapView.swift */; };
+		A51FAF6D26E42AD100B0171E /* lab6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAF6C26E42AD100B0171E /* lab6App.swift */; };
+		A51FAF6F26E42AD100B0171E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAF6E26E42AD100B0171E /* ContentView.swift */; };
+		A51FAF7126E42AD600B0171E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51FAF7026E42AD600B0171E /* Assets.xcassets */; };
+		A51FAF7426E42AD600B0171E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51FAF7326E42AD600B0171E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A51FAF4A26E40AD200B0171E /* lab5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab5.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A51FAF4D26E40AD200B0171E /* lab5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab5App.swift; sourceTree = "<group>"; };
-		A51FAF4F26E40AD200B0171E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A51FAF5126E40ADB00B0171E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A51FAF5426E40ADB00B0171E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A51FAF5626E40ADB00B0171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A51FAF5C26E4263300B0171E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		A51FAF5E26E426DA00B0171E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A51FAF6926E42AD100B0171E /* lab6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51FAF6C26E42AD100B0171E /* lab6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab6App.swift; sourceTree = "<group>"; };
+		A51FAF6E26E42AD100B0171E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A51FAF7026E42AD600B0171E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A51FAF7326E42AD600B0171E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A51FAF7526E42AD600B0171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A51FAF4726E40AD200B0171E /* Frameworks */ = {
+		A51FAF6626E42AD100B0171E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A51FAF4126E40AD200B0171E = {
+		A51FAF6026E42AD100B0171E = {
 			isa = PBXGroup;
 			children = (
-				A51FAF4C26E40AD200B0171E /* lab5 */,
-				A51FAF4B26E40AD200B0171E /* Products */,
+				A51FAF6B26E42AD100B0171E /* lab6 */,
+				A51FAF6A26E42AD100B0171E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A51FAF4B26E40AD200B0171E /* Products */ = {
+		A51FAF6A26E42AD100B0171E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A51FAF4A26E40AD200B0171E /* lab5.app */,
+				A51FAF6926E42AD100B0171E /* lab6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A51FAF4C26E40AD200B0171E /* lab5 */ = {
+		A51FAF6B26E42AD100B0171E /* lab6 */ = {
 			isa = PBXGroup;
 			children = (
-				A51FAF4D26E40AD200B0171E /* lab5App.swift */,
-				A51FAF4F26E40AD200B0171E /* ContentView.swift */,
-				A51FAF5126E40ADB00B0171E /* Assets.xcassets */,
-				A51FAF5626E40ADB00B0171E /* Info.plist */,
-				A51FAF5326E40ADB00B0171E /* Preview Content */,
-				A51FAF5C26E4263300B0171E /* CircleImage.swift */,
-				A51FAF5E26E426DA00B0171E /* MapView.swift */,
+				A51FAF6C26E42AD100B0171E /* lab6App.swift */,
+				A51FAF6E26E42AD100B0171E /* ContentView.swift */,
+				A51FAF7026E42AD600B0171E /* Assets.xcassets */,
+				A51FAF7526E42AD600B0171E /* Info.plist */,
+				A51FAF7226E42AD600B0171E /* Preview Content */,
 			);
-			path = lab5;
+			path = lab6;
 			sourceTree = "<group>";
 		};
-		A51FAF5326E40ADB00B0171E /* Preview Content */ = {
+		A51FAF7226E42AD600B0171E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A51FAF5426E40ADB00B0171E /* Preview Assets.xcassets */,
+				A51FAF7326E42AD600B0171E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A51FAF4926E40AD200B0171E /* lab5 */ = {
+		A51FAF6826E42AD100B0171E /* lab6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A51FAF5926E40ADB00B0171E /* Build configuration list for PBXNativeTarget "lab5" */;
+			buildConfigurationList = A51FAF7826E42AD600B0171E /* Build configuration list for PBXNativeTarget "lab6" */;
 			buildPhases = (
-				A51FAF4626E40AD200B0171E /* Sources */,
-				A51FAF4726E40AD200B0171E /* Frameworks */,
-				A51FAF4826E40AD200B0171E /* Resources */,
+				A51FAF6526E42AD100B0171E /* Sources */,
+				A51FAF6626E42AD100B0171E /* Frameworks */,
+				A51FAF6726E42AD100B0171E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = lab5;
-			productName = lab5;
-			productReference = A51FAF4A26E40AD200B0171E /* lab5.app */;
+			name = lab6;
+			productName = lab6;
+			productReference = A51FAF6926E42AD100B0171E /* lab6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A51FAF4226E40AD200B0171E /* Project object */ = {
+		A51FAF6126E42AD100B0171E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					A51FAF4926E40AD200B0171E = {
+					A51FAF6826E42AD100B0171E = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = A51FAF4526E40AD200B0171E /* Build configuration list for PBXProject "lab5" */;
+			buildConfigurationList = A51FAF6426E42AD100B0171E /* Build configuration list for PBXProject "lab6" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,44 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = A51FAF4126E40AD200B0171E;
-			productRefGroup = A51FAF4B26E40AD200B0171E /* Products */;
+			mainGroup = A51FAF6026E42AD100B0171E;
+			productRefGroup = A51FAF6A26E42AD100B0171E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A51FAF4926E40AD200B0171E /* lab5 */,
+				A51FAF6826E42AD100B0171E /* lab6 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A51FAF4826E40AD200B0171E /* Resources */ = {
+		A51FAF6726E42AD100B0171E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A51FAF5526E40ADB00B0171E /* Preview Assets.xcassets in Resources */,
-				A51FAF5226E40ADB00B0171E /* Assets.xcassets in Resources */,
+				A51FAF7426E42AD600B0171E /* Preview Assets.xcassets in Resources */,
+				A51FAF7126E42AD600B0171E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A51FAF4626E40AD200B0171E /* Sources */ = {
+		A51FAF6526E42AD100B0171E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A51FAF5026E40AD200B0171E /* ContentView.swift in Sources */,
-				A51FAF5F26E426DA00B0171E /* MapView.swift in Sources */,
-				A51FAF4E26E40AD200B0171E /* lab5App.swift in Sources */,
-				A51FAF5D26E4263300B0171E /* CircleImage.swift in Sources */,
+				A51FAF6F26E42AD100B0171E /* ContentView.swift in Sources */,
+				A51FAF6D26E42AD100B0171E /* lab6App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A51FAF5726E40ADB00B0171E /* Debug */ = {
+		A51FAF7626E42AD600B0171E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		A51FAF5826E40ADB00B0171E /* Release */ = {
+		A51FAF7726E42AD600B0171E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,44 +262,44 @@
 			};
 			name = Release;
 		};
-		A51FAF5A26E40ADB00B0171E /* Debug */ = {
+		A51FAF7926E42AD600B0171E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"lab5/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"lab6/Preview Content\"";
 				DEVELOPMENT_TEAM = N74PUSUB38;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = lab5/Info.plist;
+				INFOPLIST_FILE = lab6/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexrojasb.mov2.lab5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexrojasb.mov2.lab6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A51FAF5B26E40ADB00B0171E /* Release */ = {
+		A51FAF7A26E42AD600B0171E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"lab5/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"lab6/Preview Content\"";
 				DEVELOPMENT_TEAM = N74PUSUB38;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = lab5/Info.plist;
+				INFOPLIST_FILE = lab6/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexrojasb.mov2.lab5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexrojasb.mov2.lab6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A51FAF4526E40AD200B0171E /* Build configuration list for PBXProject "lab5" */ = {
+		A51FAF6426E42AD100B0171E /* Build configuration list for PBXProject "lab6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A51FAF5726E40ADB00B0171E /* Debug */,
-				A51FAF5826E40ADB00B0171E /* Release */,
+				A51FAF7626E42AD600B0171E /* Debug */,
+				A51FAF7726E42AD600B0171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A51FAF5926E40ADB00B0171E /* Build configuration list for PBXNativeTarget "lab5" */ = {
+		A51FAF7826E42AD600B0171E /* Build configuration list for PBXNativeTarget "lab6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A51FAF5A26E40ADB00B0171E /* Debug */,
-				A51FAF5B26E40ADB00B0171E /* Release */,
+				A51FAF7926E42AD600B0171E /* Debug */,
+				A51FAF7A26E42AD600B0171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A51FAF4226E40AD200B0171E /* Project object */;
+	rootObject = A51FAF6126E42AD100B0171E /* Project object */;
 }
