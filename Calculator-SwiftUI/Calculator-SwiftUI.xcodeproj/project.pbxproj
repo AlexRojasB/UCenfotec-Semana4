@@ -16,6 +16,8 @@
 		A51FAF9C26E6FF0500B0171E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51FAF9926E6FF0500B0171E /* Poppins-Medium.ttf */; };
 		A51FAF9F26E7099200B0171E /* CircleTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAF9E26E7099200B0171E /* CircleTextStyle.swift */; };
 		A51FAFA126E714F800B0171E /* CircleImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAFA026E714F800B0171E /* CircleImageStyle.swift */; };
+		A51FAFA526E8383500B0171E /* HistoryCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAFA426E8383500B0171E /* HistoryCalculation.swift */; };
+		A51FAFA726E8476D00B0171E /* PreviousOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAFA626E8476D00B0171E /* PreviousOperationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A51FAF9926E6FF0500B0171E /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		A51FAF9E26E7099200B0171E /* CircleTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextStyle.swift; sourceTree = "<group>"; };
 		A51FAFA026E714F800B0171E /* CircleImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageStyle.swift; sourceTree = "<group>"; };
+		A51FAFA426E8383500B0171E /* HistoryCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCalculation.swift; sourceTree = "<group>"; };
+		A51FAFA626E8476D00B0171E /* PreviousOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousOperationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		A51FAF8626E6FAA000B0171E /* Calculator-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A51FAFA326E8378B00B0171E /* Models */,
 				A51FAFA226E7171100B0171E /* Styles */,
 				A51FAF9D26E7097200B0171E /* Views */,
 				A51FAF9626E6FE1C00B0171E /* Fonts */,
@@ -95,6 +100,7 @@
 		A51FAF9D26E7097200B0171E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A51FAFA626E8476D00B0171E /* PreviousOperationCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +112,14 @@
 				A51FAF9E26E7099200B0171E /* CircleTextStyle.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		A51FAFA326E8378B00B0171E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A51FAFA426E8383500B0171E /* HistoryCalculation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +196,9 @@
 			files = (
 				A51FAF9F26E7099200B0171E /* CircleTextStyle.swift in Sources */,
 				A51FAFA126E714F800B0171E /* CircleImageStyle.swift in Sources */,
+				A51FAFA526E8383500B0171E /* HistoryCalculation.swift in Sources */,
 				A51FAF8A26E6FAA000B0171E /* ContentView.swift in Sources */,
+				A51FAFA726E8476D00B0171E /* PreviousOperationCell.swift in Sources */,
 				A51FAF8826E6FAA000B0171E /* Calculator_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
