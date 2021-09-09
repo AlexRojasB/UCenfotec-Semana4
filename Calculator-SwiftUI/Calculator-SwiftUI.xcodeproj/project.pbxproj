@@ -18,6 +18,8 @@
 		A51FAFA126E714F800B0171E /* CircleImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAFA026E714F800B0171E /* CircleImageStyle.swift */; };
 		A51FAFA526E8383500B0171E /* HistoryCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAFA426E8383500B0171E /* HistoryCalculation.swift */; };
 		A51FAFA726E8476D00B0171E /* PreviousOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FAFA626E8476D00B0171E /* PreviousOperationCell.swift */; };
+		A560CF5C26E97AAE00D8474D /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A560CF5B26E97AAE00D8474D /* CalculatorViewModel.swift */; };
+		A560CF5F26E9841400D8474D /* OperationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A560CF5E26E9841400D8474D /* OperationEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		A51FAFA026E714F800B0171E /* CircleImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageStyle.swift; sourceTree = "<group>"; };
 		A51FAFA426E8383500B0171E /* HistoryCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCalculation.swift; sourceTree = "<group>"; };
 		A51FAFA626E8476D00B0171E /* PreviousOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousOperationCell.swift; sourceTree = "<group>"; };
+		A560CF5B26E97AAE00D8474D /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		A560CF5E26E9841400D8474D /* OperationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 		A51FAF8626E6FAA000B0171E /* Calculator-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A560CF5D26E983FE00D8474D /* Enums */,
+				A560CF5A26E97A8C00D8474D /* ViewModels */,
 				A51FAFA326E8378B00B0171E /* Models */,
 				A51FAFA226E7171100B0171E /* Styles */,
 				A51FAF9D26E7097200B0171E /* Views */,
@@ -120,6 +126,22 @@
 				A51FAFA426E8383500B0171E /* HistoryCalculation.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A560CF5A26E97A8C00D8474D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A560CF5B26E97AAE00D8474D /* CalculatorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A560CF5D26E983FE00D8474D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A560CF5E26E9841400D8474D /* OperationEnum.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A560CF5C26E97AAE00D8474D /* CalculatorViewModel.swift in Sources */,
 				A51FAF9F26E7099200B0171E /* CircleTextStyle.swift in Sources */,
 				A51FAFA126E714F800B0171E /* CircleImageStyle.swift in Sources */,
 				A51FAFA526E8383500B0171E /* HistoryCalculation.swift in Sources */,
+				A560CF5F26E9841400D8474D /* OperationEnum.swift in Sources */,
 				A51FAF8A26E6FAA000B0171E /* ContentView.swift in Sources */,
 				A51FAFA726E8476D00B0171E /* PreviousOperationCell.swift in Sources */,
 				A51FAF8826E6FAA000B0171E /* Calculator_SwiftUIApp.swift in Sources */,
