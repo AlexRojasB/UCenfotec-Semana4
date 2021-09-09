@@ -14,9 +14,9 @@ struct PreviousOperationCell: View {
                 Spacer()
                 VStack(alignment: .trailing) {
                     Text(historyCalculation.operation)
-                        .font(.custom("Poppins-Light", size: 14))
-                        .foregroundColor(Color("ButtonOperationColor"))
-                        .bold()
+                        .font(.custom("Poppins-Light", size: 20))
+                        .foregroundColor(Color.white)
+                        .opacity(0.4)
                     Text(historyCalculation.result)
                         .font(.custom("Poppins-Bold", size: 25))
                         .foregroundColor(Color.white)
